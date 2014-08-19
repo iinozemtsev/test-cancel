@@ -1,4 +1,6 @@
 WORKSPACE=${WORKSPACE:-$PWD}
+env > $WORKSPACE/env.txt
+
 echo "Start" > $WORKSPACE/out.txt
 
 for i in {1..60}
